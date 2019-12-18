@@ -66,11 +66,11 @@ pipeline {
             }
         }
     }
-    post {
+/*    post {
         failure {
             mail to: 'tomek@cezarnet.eu', subject: 'Build failed', body: 'Please fix!'
         }
-    }
+    }   */
 }
 
 def gradlew(String... args) {
